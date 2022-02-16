@@ -1,0 +1,15 @@
+.section {
+    margin-left: 40px;
+    padding: 10px;
+   
+    width: 350px;
+  }
+ 
+  .section:first-child {
+    margin-top: 20px;
+  }
+  
+  .title {
+    margin-top: 0;
+    font-size: 30px;
+  }
