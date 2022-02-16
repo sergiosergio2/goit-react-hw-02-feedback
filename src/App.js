@@ -12,8 +12,8 @@ class App extends Component {
 
     };
     onLeaveFeedback = evt => {
-        const click = evt.currentTarget.click;
-        this.setState(prevState => ({[click]: prevState[click] + 1,}))
+        
+        this.setState(prevState => ({[evt]: prevState[evt] + 1}))
 
     }
 
