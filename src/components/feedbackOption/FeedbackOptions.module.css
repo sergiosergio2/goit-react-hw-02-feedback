@@ -1,0 +1,13 @@
+.button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 70px;
+    
+    cursor: pointer;
+  }
+  .button:not(:last-child) {
+    margin-right: 20px;
+  }
+  .button:first-of-type {
+    margin-left: 5px;
+  }
